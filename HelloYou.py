@@ -134,8 +134,8 @@ while Q19:
     print("Wil jij dit script herstarten? Y/N")
     print("")
     scriptinput = input().capitalize()
-    scriptinput = input()
     if scriptinput == "y" or scriptinput == "Y":
+        Q19 = False
         Q1 = True
         print("[o]*Het script word gerestart*")
         print("")
@@ -150,8 +150,8 @@ while Q21:
     print("GAME OVER")
     print("Wil je herstarten? Y/N")
     scriptinput = input().capitalize()
-    scriptinput = input()
     if scriptinput == "y" or scriptinput == "Y":
+        Q21 = False
         Q1 = True
         print("[o]*Het script word gerestart*")
         print("")
