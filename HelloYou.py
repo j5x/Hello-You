@@ -246,7 +246,7 @@ while play:
         print("Type: A to continue...")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 18
+            Q = 18
             os.system('cls')
 
     while Q == 16:
