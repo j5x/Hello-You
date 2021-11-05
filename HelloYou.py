@@ -13,10 +13,10 @@ while play:
         print("")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 2
+            Q = 2
             os.system('cls')
-        if InputText == "B":
-            Q == 3
+        elif InputText == "B":
+            Q = 3
             os.system('cls')
 
     while Q == 3:
@@ -28,10 +28,10 @@ while play:
         print("")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 5
+            Q = 5
             os.system('cls')
         if InputText == "B":
-            Q == 7
+            Q = 7
             os.system('cls')
 
     while Q == 5:
@@ -41,7 +41,7 @@ while play:
         print("Type: A to continue...")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 13
+            Q = 13
             os.system('cls')
 
     while Q == 7:
@@ -53,13 +53,13 @@ while play:
         print("")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 7
+            Q = 7
             os.system('cls')
         if InputText == "B":
-            Q == 11
+            Q = 11
             os.system('cls')
 
-    while Q== 9:
+    while Q == 9:
         print("Jullie komen aan bij de bij het vliegveld.")
         print("Je gaat naar de balie toe en vraagt of jullie naar Nederland mogen vluchten.")
         print("Jullie hebben toestemming gekregen van Nederland om daar heen te vluchten")
@@ -67,7 +67,7 @@ while play:
         print("Type: A to continue...")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 15
+            Q = 15
             os.system('cls')
 
     while Q == 11:
@@ -78,7 +78,7 @@ while play:
         print("Type: A to continue...")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 17
+            Q = 17
             os.system('cls')
 
     while Q == 13:
@@ -91,12 +91,12 @@ while play:
         print("B: Jullie pakken het 2e vliegtuig.")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 15
+            Q = 15
             os.system('cls')
             print("Type: A to continue...")
         InputText = input().capitalize()
         if InputText == "B":
-            Q == 12
+            Q = 12
             os.system('cls')
     while Q== 15:
         print("Het vliegtuig is er en jullie gaan aanboord. ")
@@ -107,7 +107,7 @@ while play:
         print("Type: A to continue...")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 19
+            Q = 19
 
     while Q == 17:
         print("Je krijgt levenslang vanwege land verraad.")
@@ -116,7 +116,7 @@ while play:
         print("Type: A to continue")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 21
+            Q = 21
             os.system('cls')
 
     while Q == 19:
@@ -131,7 +131,7 @@ while play:
         print("")
         scriptinput = input().capitalize()
         if scriptinput == "y" or scriptinput == "Y":
-            Q == 1
+            Q = 1
             print("[o]*Het script word gerestart*")
             print("")
             os.system('cls')
@@ -147,8 +147,7 @@ while play:
         print("Wil je herstarten? Y/N")
         scriptinput = input().capitalize()
         if scriptinput == "y" or scriptinput == "Y":
-            Q21 = False
-            Q1 = True
+            Q = 1
             print("[o]*Het script word gerestart*")
             print("")
             os.system('cls')
@@ -166,10 +165,10 @@ while play:
         print("B: het vliegveld")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 4
+            Q = 4
             os.system('cls')
         if InputText == "B":
-            Q == 6
+            Q = 6
             os.system('cls')
     while Q == 4:
         print("Jullie komen aan bij de haven.")
@@ -177,24 +176,27 @@ while play:
         print("Jullie praten even met hem en vertellen hem wat er is gebeurd.")
         print("Hij vindt het erg wat er is gebeurd.")
         print("Hij bied aan om jullie me te laten gaan als hij vracht weg brengt.")
-        print("Waar willen jullie uitstappen zegt hij.")
+        print("Waar gaan jullie eraf? zegt hij.")
         print("Waar ga je heen?")
         print("A: Griekeland")
         print("B: Nederland")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 8
+            Q = 8
+            os.system('cls')
         if InputText == "B":
-            Q == 10
+            Q = 10
+            os.system('cls')
 
     while Q == 6:
         print("Jullie komen aan op het vliegveld")
         print("Jullie gaan naar de balie en alleen jij krijgt toestemming van Nederland om er heen te vluchten.")
         print("Je gaat in discussie met de man achter de balie.")
+        print("Na een half uur discussie voeren is het geregeld dat je familie mee kan.")
         print("Type: A to continue... ")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 12
+            Q = 12
             os.system('cls')
 
     while Q == 8:
@@ -208,9 +210,93 @@ while play:
         print("B: Nederland")
         InputText = input().capitalize()
         if InputText == "A":
-            Q == 14
+            Q = 14
+            os.system('cls')
         if InputText == "B": 
-            Q == 16
+            Q = 16
+            os.system('cls')
 
     while Q == 10:
         print("")
+        print("Nederland dus? oke daar zijn we over 2 weken.")
+        print("Je geniet van de rust op het schip en de tijd vliegt bij.")
+        print("Type: A to continue...")
+        InputText = input().capitalize()
+        if InputText == "A":
+            Q = 16
+            os.system('cls')
+    
+    while Q == 12:
+        print("jullie hebben de eerste vlucht gemist")
+        print("In Syrie gaan niet veel vluchten, elke 2 weken gaat er een nieuwe vlucht.")
+        print("Dus jullie wachten")
+        print("")
+        print("*2 weken later*")
+        print("")
+        print("Jullie vlucht is er en na 5 uur zijn jullie geland in Nederland")
+        print("Type: A to continue...")
+        InputText = input().capitalize()
+        if InputText == "A":
+            Q = 20
+            os.system('cls')
+    while Q == 14:
+        print("Na anderhalve week kom je aan in Griekeland.")
+        print("De Griekse Duane checked de boot en vind jou en je familie.")
+        print("Je probeert hun over te halen om te geloven dat jullie bemanning van het schip zijn") 
+        print("Type: A to continue...")
+        InputText = input().capitalize()
+        if InputText == "A":
+            Q == 18
+            os.system('cls')
+
+    while Q == 16:
+        print("Halverwege de reis op schip is ")
+        print("Komt er een marine schip langs.")
+        print("Jullie verstoppen je, ze checken het schip en vinden niks.")
+        print("Dat was heel lucky.")
+        print("Jullie komen aan in Nederland.")
+        print("Type: A to continue...")
+        InputText = input().capitalize()
+        os.system('cls')
+        if InputText == "A":
+            Q = 20
+    
+    while Q == 18:
+        print("De mannen van de Duane nemen jou mee naar degevangenis.")
+        print("De rechter die besluit jou en je vrouw 30 jaar in de cel te geven")
+        print("Jouw dochter en zoon die worden bij een pleeggezin geplaats.")
+        print("GAME OVER")
+        print("Wil jij dit script herstarten? Y/N")
+        print("")
+        scriptinput = input().capitalize()
+        if scriptinput == "y" or scriptinput == "Y":
+            Q = 1
+            print("[o]*Het script word gerestart*")
+            print("")
+            os.system('cls')
+        elif scriptinput == "n" or scriptinput == "N": 
+            print("[o]Thanks for running")
+            os.system('cls')
+            exit()
+    while Q == 20:
+        print("Jullie regelen een verblijfsvergunning bij de overheid.")
+        print("")
+        print("*5 jaar later* ")
+        print("")
+        print("Je had een eigen bedrijf opgericht en is nu wereldwijd bekent.")
+        print("Je woont in Amsterdam en hebt een luxe huis.")
+        print("Je bent succesvol geworden. ")
+        print("Game end.")
+        print("")
+        print("Wil jij dit script herstarten? Y/N")
+        print("")
+        scriptinput = input().capitalize()
+        if scriptinput == "y" or scriptinput == "Y":
+            Q = 1
+            print("[o]*Het script word gerestart*")
+            print("")
+            os.system('cls')
+        elif scriptinput == "n" or scriptinput == "N": 
+            print("[o]Thanks for running")
+            os.system('cls')
+            exit()
